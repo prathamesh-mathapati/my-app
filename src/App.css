@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+.main-app{
+  /* display: flex; */
+  flex-direction: column;
+  gap: 10px;
+}
+.main-table td,.main-table th{
+padding-left: 10px;
+}
+.main-table,td,th{
+  border: 1px solid #fff;
+}
+
+.main-app input{
+width: 100%;
+margin-bottom: 10px;
+height: 30px;
+border-radius: 3px;
+font-size: 30px;
+}
+
+.main-app button{
+  border: 1px solid #fff;
+  width: 20rem;
+  margin-bottom: 10px;
+}
+.main-app button{
+  font-size: 30px;
+  width: 100%;
+
+}
+.main-app input{
+  border: 1px solid #fff;
+  width: 100%;
+
+}
+.main-table{
+  width: 69%;
+}
+.button-1{
+  width: 25%;
+  border-color: #282c34;
+  margin-bottom: 10px;
+font-size: 30px;
+cursor: pointer;
+border-radius: 10px;
+}
+.button-1:hover,.button-2:hover{
+  background-color: #282c34;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+.button-2{
+  border: 1px solid #FFF;
+outline: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+border-radius: 10px;
+
+}
+
+.friends-main{
+  margin-top: 20px;
+}
+
+.friends-main th{
+  background-color: #FFF;
+  color: #282c34;
+}
